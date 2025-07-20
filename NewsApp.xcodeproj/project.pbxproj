@@ -30,7 +30,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EA75D77F2E2D01D0009510E9 /* Exceptions for "NewsApp" folder in "NewsApp" target */ = {
+		EA75D7AE2E2D021E009510E9 /* Exceptions for "NewsApp" folder in "NewsApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -40,14 +40,6 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		EA75D7592E2D01CE009510E9 /* NewsApp */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EA75D77F2E2D01D0009510E9 /* Exceptions for "NewsApp" folder in "NewsApp" target */,
-			);
-			path = NewsApp;
-			sourceTree = "<group>";
-		};
 		EA75D7702E2D01D0009510E9 /* NewsAppTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NewsAppTests;
@@ -56,6 +48,14 @@
 		EA75D77A2E2D01D0009510E9 /* NewsAppUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NewsAppUITests;
+			sourceTree = "<group>";
+		};
+		EA75D7A72E2D021E009510E9 /* NewsApp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				EA75D7AE2E2D021E009510E9 /* Exceptions for "NewsApp" folder in "NewsApp" target */,
+			);
+			path = NewsApp;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -88,7 +88,7 @@
 		EA75D74E2E2D01CE009510E9 = {
 			isa = PBXGroup;
 			children = (
-				EA75D7592E2D01CE009510E9 /* NewsApp */,
+				EA75D7A72E2D021E009510E9 /* NewsApp */,
 				EA75D7702E2D01D0009510E9 /* NewsAppTests */,
 				EA75D77A2E2D01D0009510E9 /* NewsAppUITests */,
 				EA75D7582E2D01CE009510E9 /* Products */,
@@ -121,7 +121,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				EA75D7592E2D01CE009510E9 /* NewsApp */,
+				EA75D7A72E2D021E009510E9 /* NewsApp */,
 			);
 			name = NewsApp;
 			packageProductDependencies = (
